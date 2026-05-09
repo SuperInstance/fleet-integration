@@ -1,5 +1,15 @@
 # fleet-integration — Prove It Works
 
+
+## Meta
+
+**Domain:** agent-coordination
+**Depends on:** —
+**Depended by:** —
+**Implements:** Integration tests and working examples that compose multiple fleet repos togethe...
+**Related:** —
+
+
 Four integration scenarios that compose multiple fleet repos into
 working systems. Each scenario demonstrates a real use case.
 
