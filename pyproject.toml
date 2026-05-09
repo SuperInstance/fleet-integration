@@ -1,0 +1,17 @@
+[project]
+name = "fleet-integration"
+version = "0.1.0"
+description = "Integration tests and working examples that compose multiple fleet repos together."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
